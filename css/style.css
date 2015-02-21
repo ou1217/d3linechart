@@ -1,0 +1,48 @@
+
+h1 {font-family: Helvetica;
+    font-style: thin;
+    font-size: 25px;}
+
+.chart {
+  height: 500px;
+}
+
+body {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.point {
+fill:steelblue;
+}
+
+.tooltip {
+  font-color: blue;
+  position: absolute;	
+  text-align: left;	
+  width: 180px;	
+  height:50px;		
+  padding: 5px;	
+  font: 12px sans-serif;	
+  background: lightsteelblue;	
+  border: 1px;					
+  border-radius: 2px;
+ /*  pointer-events: none;	This line needs to be removed */
+	
+}
